@@ -50,6 +50,8 @@ dependencies:
   carousel_slider: ^4.0.0
   google_fonts: ^2.1.0
   fl_chart: ^0.40.2
+  searchfield: ^0.6.6
+  animated_button: ^0.2.0
 
 dev_dependencies:
   flutter_test:

@@ -2,15 +2,13 @@ import 'package:example/pages/animated_container.dart';
 import 'package:example/pages/register_with_phone.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(
-  MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: RegisterWithPhoneNumber(),
-  )
-);
+void main() => runApp(MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: RegisterWithPhoneNumber(),
+    ));
 
 class HomePage extends StatelessWidget {
-  const HomePage({ Key? key }) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
